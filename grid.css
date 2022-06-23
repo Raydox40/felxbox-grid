@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    margin: 10px;
+}
+.A{
+    background-color: #EB5020;
+    grid-area: a;
+}
+.B{
+    background-color: #FFA401;
+    grid-area: b;
+}
+.C{
+    background-color: #05AA42;
+    grid-area: c;
+}
+.D{
+    background-color: #01AEFD;
+    grid-area: d;
+}
+.E{
+    background-color: #01AEFD;
+    grid-area: e;
+}

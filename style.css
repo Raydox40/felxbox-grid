@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    vertical-align: center;
+    width: 50%;
+    margin: 25vh auto;
+    display: flex;
+    flex-flow: row;
+    border: 35px;
+    background-color: black;
+}
+main p{
+    font-size: 1rem;
+    justify-content: left;
+    color: white;
+}
+main h2{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-weight: bolder;
+    color: white;
+}
+main button{
+    border: 15px dotted white ;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+main button a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+}
+.Sedan a{
+    color: #E28525;
+}
+.Sedan{
+    background-color: #E28525;
+    padding: 50px;
+   
+}
+.suvs a{
+    color: #016972;
+}
+.suvs{
+    background-color: #016972;
+    padding: 50px;
+    
+}
+.luxury a{
+    color: #00403F;
+}
+.luxury{
+    background-color: #00403F;
+    padding: 50px;
+    
+}
